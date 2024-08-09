@@ -1,0 +1,14 @@
+.section {
+    padding: calc(4 * var(--spacing))
+        calc(2 * var(--spacing));
+}
+
+.section__title {
+    margin-bottom: calc(4 * var(--spacing));
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: calc(6 * var(--spacing));
+    }
+}

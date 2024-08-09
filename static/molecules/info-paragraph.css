@@ -1,0 +1,12 @@
+.info-paragraph {
+    margin-bottom: calc(3 * var(--spacing));
+}
+
+.info-paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+.info-paragraph > *:first-child {
+    margin-bottom: calc(2 * var(--spacing));
+    color: var(--color-primary);
+}

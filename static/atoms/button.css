@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    padding: var(--spacing) calc(2 * var(--spacing));
+    font-family: "Staatliches", sans-serif;
+    font-size: calc(3 * var(--spacing));
+    letter-spacing: 1px;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    border: solid var(--stroke-thickness)
+        var(--color-primary);
+    transition: box-shadow var(--transition-duration),
+        transform var(--transition-duration);
+}
+
+.button:hover {
+    box-shadow: -3px 3px var(--color-primary);
+    transform: translate(2px, -2px);
+}

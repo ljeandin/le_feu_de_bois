@@ -1,0 +1,23 @@
+/* Variables */
+
+* {
+    --color-white: #fffdf9;
+    --color-primary: #e42828;
+    --color-secondary: #791e02;
+    --color-tertiary: #fff0ab;
+
+    --spacing: 0.5rem;
+
+    --stroke-thickness: 2px;
+    --stroke-thickness-thick: 4px;
+
+    --transition-duration: 0.15s;
+
+    --header-height: calc(7 * var(--spacing));
+}
+
+@media (min-width: 768px) {
+    * {
+        --header-height: calc(9 * var(--spacing));
+    }
+}

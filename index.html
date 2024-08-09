@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="A brief description of the page"
+        />
+        <title>
+            Le feu de bois - pizzeria Saint-Dié-des-Vosges
+        </title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="./static/styles.css"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./assets/images/icons/favicon.svg"
+        />
+    </head>
+    <body class="body">
+        <header class="header">
+            <a
+                class="header__logo-wrapper"
+                href="#top"
+            >
+                <img
+                    class="header__logo"
+                    src="./assets/images/logo.svg"
+                    alt="Le feu de bois"
+                />
+            </a>
+
+            <button
+                class="nav-menu-trigger js-menu-trigger"
+                type="button"
+            >
+                <img
+                    src="./assets/images/icons/menu_icon.svg"
+                    alt="Menu"
+                    class="nav-menu-trigger__icon"
+                />
+            </button>
+
+            <nav>
+                <ul
+                    class="nav-menu nav-menu--hidden js-nav-menu"
+                >
+                    <li>
+                        <a
+                            class="nav-menu__link"
+                            href="#carte"
+                        >
+                            La carte
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="nav-menu__link"
+                            href="#infos"
+                        >
+                            Infos
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="button"
+                            href="tel:0329561866"
+                        >
+                            03.29.56.18.66
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section
+                class="section hero"
+                id="top"
+            >
+                <div class="hero__content">
+                    <div>
+                        <h1 class="hero__message">
+                            <b class="emphasis">
+                                Depuis 1995
+                            </b>
+                            <br />
+                            <span class="heading--1">
+                                Pizzas cuites au feu de bois
+                                à St‑Dié
+                            </span>
+                        </h1>
+
+                        <a
+                            class="button hero__cta"
+                            href="tel:0329561866"
+                        >
+                            03.29.56.18.66
+                        </a>
+                    </div>
+
+                    <div
+                        class="hero__images-wrapper js-hero-slider"
+                    >
+                        <div
+                            class="hero__images-spacer"
+                        ></div>
+                        <img
+                            alt="La pizza sort du four à bois"
+                            src="./assets/images/pizza.jpg"
+                            class="hero__image"
+                        />
+                        <img
+                            alt="Le pizzaiolo fabrique une pizza fraîche devant le four à bois"
+                            src="./assets/images/pizzaiolo.jpg"
+                            class="hero__image"
+                        />
+                        <img
+                            alt="Le pizzaiolo fabrique une pizza fraîche devant le four à bois"
+                            src="./assets/images/pizza-making.jpg"
+                            class="hero__image"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <hr class="separator" />
+
+            <section
+                class="section"
+                id="carte"
+            >
+                <h2 class="heading--2 section__title">
+                    Nos pizzas
+                </h2>
+
+                <div class="pizza-menu js-pizza-menu">
+                    <div
+                        class="pizza-menu-line js-pizza-line"
+                    >
+                        <div
+                            class="pizza-menu-line__main-infos"
+                        >
+                            <h3
+                                class="heading--3 js-pizza-name"
+                            ></h3>
+                            <img
+                                src="./assets/images/icons/veggie_icon.svg"
+                                class="js-pizza-icon"
+                            />
+                            <span
+                                class="pizza-menu-line__separator"
+                            ></span>
+                            <span
+                                class="emphasis js-pizza-price"
+                            ></span>
+                        </div>
+                        <span
+                            class="js-pizza-description"
+                        ></span>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="separator" />
+
+            <section
+                class="section infos-section"
+                id="infos"
+            >
+                <h2 class="heading--2 section__title">
+                    Infos
+                </h2>
+
+                <div class="info-paragraph">
+                    <h3 class="heading--3">Horaires</h3>
+                    <p>
+                        Tous les soirs de 18h30 à 21h30,
+                        sauf le mercredi
+                    </p>
+                </div>
+
+                <div class="info-paragraph">
+                    <h3 class="heading--3">Adresse</h3>
+                    <p>
+                        45 rue d'Alsace, 88100
+                        Saint-Dié-des-Vosges
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <h2 class="footer__title heading--3">
+                Contact
+            </h2>
+            <div class="footer__link-wrapper">
+                <a
+                    href="tel:0329561866"
+                    class="footer__link heading--4"
+                >
+                    03.29.56.18.66
+                </a>
+            </div>
+
+            <div class="footer__link-wrapper">
+                <a
+                    href="https://fr.linkedin.com/in/lucie-jeandin-1a5a8b206"
+                    class="footer__link heading--4"
+                >
+                    Site web par Lucie Jeandin
+                </a>
+            </div>
+        </footer>
+    </body>
+
+    <script
+        type="module"
+        src="script.js"
+    ></script>
+</html>

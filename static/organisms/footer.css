@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    margin-bottom: calc(3 * var(--spacing));
+}
+
+.footer__link-wrapper {
+    margin-bottom: calc(2 * var(--spacing));
+}
+
+.footer__link {
+    margin-bottom: calc(2 * var(--spacing));
+    transition: box-shadow var(--transition-duration);
+}
+
+.footer__link:hover {
+    box-shadow: 0 var(--stroke-thickness) currentColor;
+}

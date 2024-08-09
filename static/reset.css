@@ -1,0 +1,27 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: var(--color-tertiary);
+}
+
+*:focus-visible {
+    outline: none;
+    background-color: var(--color-tertiary);
+}
+
+h1,
+h2,
+h3,
+a,
+b {
+    font-size: 1rem;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}

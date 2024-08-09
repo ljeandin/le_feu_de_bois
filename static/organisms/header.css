@@ -1,0 +1,29 @@
+.header {
+    height: var(--header-height);
+    padding: 0 calc(2 * var(--spacing));
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: var(--color-white);
+    border-bottom: solid var(--stroke-thickness)
+        var(--color-primary);
+    z-index: 1;
+}
+
+.header__logo-wrapper {
+    height: calc(4 * var(--spacing));
+}
+
+.header__logo {
+    max-height: 100%;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 0 calc(4 * var(--spacing));
+    }
+}

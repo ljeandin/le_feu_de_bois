@@ -1,0 +1,19 @@
+.pizza-menu-line {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: calc(3 * var(--spacing));
+}
+
+.pizza-menu-line__main-infos {
+    display: flex;
+    align-items: center;
+    gap: calc(2 * var(--spacing));
+}
+
+.pizza-menu-line__separator {
+    display: block;
+    border-bottom: var(--stroke-thickness) dashed
+        var(--color-secondary);
+    width: 100%;
+}

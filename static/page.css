@@ -1,0 +1,13 @@
+html {
+    scroll-padding-top: var(--header-height);
+}
+
+.main {
+    margin-top: var(--header-height);
+}
+
+.body {
+    background-color: var(--color-white);
+    color: var(--color-secondary);
+    font-family: "Montserrat", sans-serif;
+}

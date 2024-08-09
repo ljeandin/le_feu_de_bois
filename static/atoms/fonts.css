@@ -1,0 +1,49 @@
+.heading--1,
+.heading--2,
+.heading--3,
+.heading--4 {
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: calc(1em / 16);
+}
+
+.heading--1 {
+    font-size: calc(8 * var(--spacing));
+}
+
+.heading--2 {
+    font-size: calc(5 * var(--spacing));
+}
+
+.heading--3 {
+    font-size: calc(3 * var(--spacing));
+}
+
+.heading--4 {
+    font-size: calc(2 * var(--spacing));
+}
+
+.emphasis {
+    font-family: "Fraunces", serif;
+    font-size: calc(2.5 * var(--spacing));
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .heading--1 {
+        font-size: calc(10 * var(--spacing));
+    }
+
+    .heading--2 {
+        font-size: calc(6 * var(--spacing));
+    }
+
+    .heading--3 {
+        font-size: calc(4 * var(--spacing));
+    }
+}
+
+@media (min-width: 992px) {
+    .heading--1 {
+        font-size: calc(12 * var(--spacing));
+    }
+}
