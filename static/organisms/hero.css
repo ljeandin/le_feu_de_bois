@@ -8,6 +8,7 @@
     width: calc(28 * var(--spacing));
     min-width: 30vw;
     max-width: 95vw;
+    color: pink !important;
 }
 
 .hero__message {
